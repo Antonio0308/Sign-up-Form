@@ -48,3 +48,81 @@ body {
 .credits a {
   color: white;
 }
+
+.container-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  background-color: rgb(240, 240, 240);
+}
+
+.para {
+  font-weight: 600;
+  margin-left: 3vw;
+}
+
+.para p:nth-child(2) {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+.register-form {
+  background-color: white;
+  padding-left: 3vw;
+  padding-bottom: 40px;
+}
+
+.section-form {
+  display: flex;
+  gap: 5vw;
+  margin-top: 15px;
+}
+
+label {
+  font-size: 13px;
+}
+
+input {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  padding: 6px 10px;
+  border-radius: 4px;
+  width: 15vw;
+}
+
+input:user-invalid {
+  border: 1px solid red;
+}
+
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 1px 1px 5px black;
+}
+
+button,
+.log-in {
+  margin-left: 3vw;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  background-color: #596d48;
+  font-weight: bolder;
+  color: white;
+  font-size: 18px;
+  padding: 12px 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.log-in a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: 600;
+}
